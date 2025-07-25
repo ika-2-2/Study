@@ -17,3 +17,10 @@ const list = [1, 2, 3];
 list = [2, 3, 4]; //再代入は無理、
 list[0] = 1;   //要素の変更はOK
 list.push(3); //これも要素の変更だからOK
+
+//変数にどんな値を入れるか指定できる。事故防止
+const num: number = 123;
+const str: string = "hello";
+
+//verは使わない！
+
